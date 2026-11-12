@@ -6,8 +6,7 @@ Prototipo navegable de la plataforma **Vigía RAM** (vigilancia de resistencia a
 
 ## Cómo verlo
 
-- En línea: <https://tesisram.github.io/prototipoVigiaRAM/> (GitHub Pages).
-- Local: abrir [`vigia-ram-flujo.html`](vigia-ram-flujo.html) con doble clic. Es un solo archivo, sin servidor; solo la fuente Poppins necesita internet.
+- Abrir [`vigia-ram-flujo.html`](vigia-ram-flujo.html) con doble clic. Es un solo archivo, sin servidor; solo la fuente Poppins necesita internet.
 
 Dentro del prototipo, el selector de perfil junto a la campana cambia de rol. El panel **Guía del recorrido** (se oculta con la ×) lista los flujos F1 a F5 de abajo y abre la pantalla de cada paso. Los filtros, buscadores y selectores muestran el aviso «no incluido».
 
