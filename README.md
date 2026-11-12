@@ -23,7 +23,7 @@ Dentro del prototipo, el selector de perfil junto a la campana cambia de rol. El
 |---|---|
 | Reunión con la asesora, 2026-11-09 | Perfiles de consulta, 3 tipos de alerta, resumen legible en 3 a 5 min, listado por periodo, mapa por servicios, cero digitación, dato inválido marcado y confirmado, alcance de un solo hospital |
 | Requerimientos candidatos de vigilancia de CIM | CIM cerca del punto de corte, historial de 6 meses |
-| Notas de conocimiento (flujo microbiológico, gobernanza, sistemas y calidad de datos) | Origen del dato (lector, Vitek 2, Equipo de Identificación), calidad y confirmación |
+| Notas de conocimiento (flujo microbiológico, gobernanza, sistemas y calidad de datos) | Origen del dato (lector, analizador de antibiograma, Equipo de Identificación), calidad y confirmación |
 
 ## Perfiles y qué ve cada uno
 
@@ -81,7 +81,7 @@ flowchart TD
 4. **Personalizado** abre la ventana de periodo; **Exportar boletín** abre la ventana de exportación (formato legible tipo boletín del INS).
 
 ### F4 · Carga y validación sin digitar (solo Laboratorio)
-1. Los resultados llegan por **lector de código de barras**, **interfaz con equipos** (Vitek 2, Equipo de Identificación) o **archivo**; el código manual es solo respaldo.
+1. Los resultados llegan por **lector de código de barras**, **interfaz con equipos** (analizador de antibiograma, Equipo de Identificación) o **archivo**; el código manual es solo respaldo.
 2. La **cola de validación** separa Todos / Por confirmar / Con error.
 3. Un dato inválido **no se descarta**: se marca con el motivo (CIM fuera de rango, falta CIM, valor atípico) y espera.
 4. La persona del laboratorio abre **Confirmar** (acepta el dato tal cual) o **Corregir**.
